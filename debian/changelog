@@ -1,0 +1,5 @@
+ssh-telnet-eda (0.1.0-1) unstable; urgency=medium
+
+  * Initial package skeleton
+
+ -- Claudio Bizzarri <claudio@bizzarri.net>  Mon, 04 Feb 2026 08:01:00 +0100

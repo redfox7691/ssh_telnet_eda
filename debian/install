@@ -1,0 +1,4 @@
+src/ssh_telnet_eda /usr/lib/python3/dist-packages/
+config/config.toml.example /etc/ssh-telnet-eda/config.toml
+systemd/ssh-telnet-eda.service /lib/systemd/system/
+src/ssh-telnet-eda /usr/bin/

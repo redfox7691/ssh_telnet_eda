@@ -1,0 +1,14 @@
+Source: ssh-telnet-eda
+Section: admin
+Priority: optional
+Maintainer: Claudio Bizzarri <claudio@example.com>
+Build-Depends: debhelper-compat (= 13), python3, python3-setuptools
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+
+Package: ssh-telnet-eda
+Architecture: all
+Depends: python3, python3-tomllib
+Description: SSH to Telnet proxy for legacy EDA systems
+ SSH->Telnet proxy to encapsulate legacy telnet-based systems
+ behind modern SSH access with user-to-role mapping and audit logging.

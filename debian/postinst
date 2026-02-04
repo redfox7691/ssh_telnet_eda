@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+systemctl daemon-reexec || true
+systemctl daemon-reload || true
+systemctl enable ssh-telnet-eda.service || true
+
+exit 0
