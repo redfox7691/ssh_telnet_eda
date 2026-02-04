@@ -1,5 +1,7 @@
-*.log
-*.swp
-*.tmp
-build/
+__pycache__/
+*.pyc
+.venv/
 dist/
+build/
+*.egg-info/
+*.log
