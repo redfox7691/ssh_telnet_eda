@@ -1,7 +1,10 @@
 __pycache__/
 *.pyc
-.venv/
-dist/
-build/
-*.egg-info/
+*.pyo
 *.log
+*.swp
+.venv/
+build/
+dist/
+*.egg-info/
+.debbuild/

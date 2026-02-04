@@ -1,0 +1,17 @@
+[telnet]
+host = "10.0.0.10"
+port = 23
+connect_timeout_sec = 5
+
+[mapping]
+# ssh_username = "role"
+# claudio = "admin"
+# mario = "operatore"
+
+[roles.admin]
+telnet_user = "9999"
+telnet_pass = "FUNZ_ADM"
+
+[roles.operatore]
+telnet_user = "1234"
+telnet_pass = "FUNZ_OP"
